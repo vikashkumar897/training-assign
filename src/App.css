@@ -19,8 +19,8 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  font-size: 16px;
+  padding-top: 60px;
   color: white;
 }
 
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+.container{
+  display: flex;
+  justify-content: space-between;
+  gap: 3%;
+  width: 80%;
+}
+.leftContainer{
+  width: 30%;
+  /* border: 1px solid white; */
+  border-radius: 5px;
+  padding: 16px;
+  height: 344px;
+}
+.rightContainer{
+  width: 68%;
+  /* border: 1px solid white; */
+  padding: 16px;
+  border-radius: 5px;
 }
